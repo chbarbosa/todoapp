@@ -14,7 +14,7 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', '.jsx'],
         alias: {
-            modules: __dirname + '/node_mudles'
+            modules: __dirname + '/node_modules'
         }
     },
     plugins: [
@@ -32,7 +32,7 @@ module.exports = {
                 }
             }, {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract('style-loader', 'css - loader')
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
             }, {
                 test: /\.woff|.woff2|.ttf|.eot|.svg*.*$/,
                 loader: 'file'
