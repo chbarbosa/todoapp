@@ -21,7 +21,7 @@ const TodoForm = props => {
                     placeholder="Adicione uma tarefa"
                     onKeyUp={keyHandler}
                     onChange={props.changeDescription}
-                    value={props.description}></input>
+                    value={props.description} />
             </Grid>
             <Grid cols="12 3 2">
                 <IconButton style='primary' icon='plus'
