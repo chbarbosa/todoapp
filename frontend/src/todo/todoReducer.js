@@ -1,19 +1,4 @@
-const INITIAL_STATE = {
-    description: 'Ler livro',
-    list: [{
-        _id: 1,
-        description: 'tarefa 1',
-        done: true
-    }, {
-        _id: 2,
-        description: 'tarefa 2',
-        done: false
-    }, {
-        _id: 3,
-        description: 'tarefa 3',
-        done: false
-    }]
-};
+const INITIAL_STATE = { description: '', list: [] };
 
 export default (state = INITIAL_STATE, action) => {
     switch (action.type) {
